@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c6c5c5;
+}
+
+.row {
+    clear: both;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    background-color: #2fc2d4;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.navbar a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+
+}
+
+.search {
+    width: 40%;
+    border: 1px solid rgb(180, 168, 168);
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 8px;
+    left: 30%;
+
+}
+
+.search input {
+    width: 40%;
+    height: 20px;
+}
+
+.search i {
+    float: right;
+}
+
+.menu i {
+    font-size: 30px;
+    color: white;
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.wallpaper-content {
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    border: 1px solid;
+}
+
+.wallpaper {
+    width: 33.3333%;
+    height: 50vh;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid;
+}
+
+.image {
+    width: 100%;
+    height: 10vh;
+    border: 1px solid;
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    left: 10%;
+}
+
+.icon i {
+    color: #737373;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.icon a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    left: 35%;
+}
+
+.icon1 i {
+    color: #2fc2d4;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.icon1 a {
+    color: #2fc2d4;
+    text-decoration: none;
+}
+
+.icon2 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    left: 60%;
+}
+
+.icon2 i {
+    color: #737373;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.icon2 a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.icon3 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    right: 10%;
+}
+
+.icon3 i {
+    color: #737373;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.icon3 a {
+    color: #737373;
+    text-decoration: none;
+}

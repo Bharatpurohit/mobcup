@@ -1,0 +1,300 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #c6c5c5;
+ }
+
+ .header {
+     width: 100%;
+     height: 60px;
+     margin: auto;
+     background-color: #2fc2d4;
+     position: fixed;
+     top: 0;
+     z-index: 1;
+ }
+
+ .row {
+     clear: both;
+
+ }
+
+ .navbar {
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     position: relative;
+ }
+
+ .navbar a {
+     font-size: 25px;
+     text-decoration: none;
+     color: white;
+     float: left;
+     position: absolute;
+     top: 15px;
+     left: 10px;
+
+ }
+
+ .search {
+     width: 40%;
+     border: 1px solid rgb(180, 168, 168);
+     border-radius: 5px;
+     background-color: white;
+     padding: 12px;
+     box-sizing: border-box;
+     position: absolute;
+     top: 8px;
+     left: 30%;
+
+ }
+
+ .search input {
+     width: 40%;
+     height: 20px;
+     border: none;
+ }
+
+ .search i {
+     float: right;
+ }
+
+ .menu i {
+     font-size: 30px;
+     color: white;
+     float: right;
+     position: absolute;
+     top: 15px;
+     right: 10px;
+ }
+
+ h1 {
+     font-size: 24px;
+     margin-top: 120px;
+     margin-left: 10px;
+     font-family: -apple-system,
+         BlinkMacSystemFont,
+         segoe ui,
+         Roboto,
+         helvetica neue,
+         Arial,
+         sans-serif,
+         apple color emoji,
+         segoe ui emoji,
+         segoe ui symbol;
+ }
+
+ .container {
+     width: 100%;
+     margin: auto;
+ }
+
+ /* .ringtones {
+     width: 100%;
+     margin: auto;
+ } */
+
+ .box {
+     width: 33.3333%;
+     height: 40vh;
+     margin-top: 10px;
+     padding: 5px;
+     float: left;
+     box-sizing: border-box;
+ }
+
+ .subbox {
+     width: 100%;
+     height: 40vh;
+     background-color: white;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+ .play {
+     font-size: 20px;
+     width: 60px;
+     height: 60px;
+     background-color: #2fc2d4;
+     border-radius: 50%;
+     margin-left: 10px;
+     float: left;
+     margin-top: 10px;
+
+ }
+
+ .play i {
+     color: white;
+     line-height: 60px;
+     margin-left: 23px;
+ }
+
+ .txt a {
+     font-size: 16px;
+     /* color: black; */
+     text-decoration: none;
+     margin: 0px 20px;
+     font-family: -apple-system,
+         BlinkMacSystemFont,
+         segoe ui,
+         Roboto,
+         helvetica neue,
+         Arial,
+         sans-serif,
+         apple color emoji,
+         segoe ui emoji,
+         segoe ui symbol;
+     color: #000000;
+     font-weight: 700;
+     /* padding: 10px 0px; */
+     display: inline-block;
+     margin-top: 20px;
+ }
+
+ .txt span {
+     font-size: 16px;
+     color: #737373;
+     margin-left: 20px;
+     /* margin-top: 10px; */
+     /* line-height: 20px; */
+     display: inline-block;
+     margin-top: 10px;
+ }
+
+ .menu-link {
+     padding: 30px;
+     box-sizing: border-box;
+ }
+
+ .menu-link a {
+     /* height: 50px; */
+     font-size: 15px;
+     text-decoration: none;
+     border: 1px solid;
+     border-radius: 20px;
+     padding: 10px;
+     color: #353535;
+     /* margin: 10px 0; */
+     /* box-sizing: border-box; */
+     display: inline-block;
+     margin-top: 10px;
+ }
+
+ .bottom-wrap {
+     width: 100%;
+     margin: auto;
+ }
+
+ .bottom-wrap i {
+     font-size: 25px;
+     padding: 5px;
+     margin-left: 20px;
+     /* box-sizing: border-box; */
+     color: #737373;
+ }
+
+ .bottom-wrap .btn {
+     font-size: 15px;
+     color: white;
+     width: 120px;
+     background-color: #2fc2d4;
+     border-radius: 20px;
+     padding: 10px;
+     border: none;
+     float: right;
+     margin-right: 20px;
+ }
+
+ .footer {
+     background-color: white;
+     width: 100%;
+     height: 60px;
+     margin: auto;
+     position: fixed;
+     bottom: 0;
+     z-index: 1;
+ }
+
+ .icon {
+     width: 40px;
+     height: 40px;
+     float: left;
+     position: absolute;
+     left: 10%;
+ }
+
+ .icon i {
+     color: #737373;
+     margin-left: 20px;
+     margin-top: 10px;
+
+ }
+
+ .icon a {
+     color: #737373;
+     text-decoration: none;
+ }
+
+ .icon1 {
+     width: 40px;
+     height: 40px;
+     float: left;
+     position: absolute;
+     left: 35%;
+ }
+
+ .icon1 i {
+     color: #2fc2d4;
+     margin-left: 20px;
+     margin-top: 10px;
+
+ }
+
+ .icon1 a {
+     color: #2fc2d4;
+     text-decoration: none;
+ }
+
+ .icon2 {
+     width: 40px;
+     height: 40px;
+     float: left;
+     position: absolute;
+     left: 60%;
+ }
+
+ .icon2 i {
+     color: #737373;
+     margin-left: 15px;
+     margin-top: 10px;
+
+ }
+
+ .icon2 a {
+     color: #737373;
+     text-decoration: none;
+ }
+
+ .icon3 {
+     width: 40px;
+     height: 40px;
+     float: left;
+     position: absolute;
+     right: 10%;
+ }
+
+ .icon3 i {
+     color: #737373;
+     margin-left: 10px;
+     margin-top: 10px;
+
+ }
+
+ .icon3 a {
+     color: #737373;
+     text-decoration: none;
+ }
